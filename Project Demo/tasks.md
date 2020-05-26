@@ -39,6 +39,9 @@ pytest
 Every time you want to check your work locally you can type that command, and it will report the status of every task in the project.
 
 # Working on tasks
+
+In this project you will work your way to import and merge two datasets into one.
+
 ## Task 1: Importing Pandas Library
 **`@pytest.mark.test_task1`** In order to start working with the project, load the `pandas` library with an alias `pd` at the top of the `tasks/solution.py` file.
 
