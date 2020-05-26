@@ -37,3 +37,4 @@ def test_task3():
 def test_task4():    
     assert get_assignments(solution)[2][:11] == 'CountryCode', 'Has the `CountryCode` variable been created?'    
     assert get_calls(solution)[2] == 'CountryCode:pd:merge:df1:df2:on:country', 'You can use the `df.GRADE.median()` call to calculate the correct median.'
+    get_assignments(solution)[2][32:] == 'country', 'Have you merged two dataframes on country column.'
